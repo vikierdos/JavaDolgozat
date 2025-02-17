@@ -48,17 +48,17 @@ public class AlakzatokTest {
         assertEquals(1, alakzat.terfogat(), 0.001);
     }
 
-//    @Test
-//    void testHasabSuly(){
-//        alakzat = new Hasab(1.0, 1.0, 1.0);
-//        assertEquals(1.2, alakzat.suly(), 0.001);
-//    }
-//
-//    @Test
-//    void testHasabParamSorrend(){
-//        Hasab hasab = new Hasab(1,2,3);
-//        assertEquals(1, hasab.getA());
-//        assertEquals(2, hasab.getB());
-//        assertEquals(3, hasab.getM());
-//    }
+    @Test
+    void testHasabSuly(){
+        alakzat = new Hasab(1.0, 1.0, 1.0);
+        assertEquals(1.2, alakzat.suly(), 0.001);
+    }
+
+    @Test
+    void testHasabParamSorrend(){
+        Hasab hasab = new Hasab(1,2,3);
+        assertEquals(1, hasab.getA());
+        assertEquals(2, hasab.getB());
+        assertEquals(3, hasab.getM());
+    }
 }
